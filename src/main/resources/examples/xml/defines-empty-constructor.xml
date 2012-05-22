@@ -1,0 +1,5 @@
+<defines>
+	<tag name="foo" type="EmptyConstructorClass">
+        <constructor/>
+	</tag>
+</defines>

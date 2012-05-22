@@ -1,0 +1,8 @@
+<configuration>
+  <auto name="string">string</auto>
+  <auto name="integer">42</auto>
+  <auto name="double">42.564</auto>
+  <auto name="bool-true">true</auto>
+  <auto name="bool-false">false</auto>
+  <auto name="null">null</auto>
+</configuration>

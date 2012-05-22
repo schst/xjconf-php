@@ -1,0 +1,4 @@
+<defines>
+	<tag name="list" type="array"/>
+	<tag name="entry" type="string" key="__none"/>
+</defines>

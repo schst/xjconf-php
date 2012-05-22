@@ -1,0 +1,27 @@
+<defines>
+  <tag name="color" type="ConstructorColor" keyAttribute="id">
+    <constructor>
+      <attribute name="red" type="integer"/>
+      <attribute name="green" type="integer"/>
+      <attribute name="blue" type="integer"/>
+    </constructor>
+  </tag>
+
+  <tag name="color2" type="ConstructorColor">
+    <constructor>
+      <child name="red"/>
+      <child name="green"/>
+      <child name="blue"/>
+    </constructor>
+  </tag>
+
+  <tag name="red" type="integer" setter="__ignore"/>
+  <tag name="green" type="integer" setter="__ignore"/>
+  <tag name="blue" type="integer" setter="__ignore"/>
+
+  <tag name="color3" type="CDataColor">
+    <constructor>
+      <cdata type="string"/>
+    </constructor>
+  </tag>
+</defines>

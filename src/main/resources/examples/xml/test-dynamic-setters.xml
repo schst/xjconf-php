@@ -1,0 +1,6 @@
+<configuration>
+  <class>
+    <string key="foo">Use setFoo()</string>
+    <string key="bar">Use setBar()</string>
+  </class>
+</configuration>

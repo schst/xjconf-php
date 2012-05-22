@@ -1,0 +1,4 @@
+<defines>
+	<tag name="class" type="DynamicSetterClass"/>
+	<tag name="string" type="string" keyAttribute="key"/>
+</defines>

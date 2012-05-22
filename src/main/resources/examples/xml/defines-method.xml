@@ -1,0 +1,8 @@
+<defines>
+  <tag name="props" type="Properties">
+    <methodCallTag name="property" method="setProperty">
+      <attribute name="name" type="string"/>
+      <cdata type="string"/>
+    </methodCallTag>
+  </tag>
+</defines>

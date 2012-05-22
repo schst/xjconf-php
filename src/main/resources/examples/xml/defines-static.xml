@@ -1,0 +1,6 @@
+<defines>
+  <tag name="registry" type="Registry" static="true">
+    <attribute name="foo" type="string"/>
+  </tag>
+  <tag name="bar" type="integer"/>
+</defines>

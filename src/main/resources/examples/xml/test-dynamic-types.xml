@@ -1,0 +1,6 @@
+<configuration>
+  <foo>
+    <bar __type="MyClass">Becomes MyClass.</bar>
+    <bar __type="AnotherClass">Becomes AnotherClass.</bar>
+  </foo>
+</configuration>

@@ -1,0 +1,11 @@
+<defines>
+	<tag name="zahl" type="integer" keyAttribute="name"/>
+
+	<tag name="colors" type="array"/>
+	<tag name="color" type="net\xjconf\examples\Color" key="__none">
+		<attribute name="red" type="integer"/>
+		<attribute name="green" type="integer"/>
+		<attribute name="blue" type="integer"/>
+	</tag>
+
+</defines>

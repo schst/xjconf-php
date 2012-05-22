@@ -1,0 +1,4 @@
+<defines>
+	<tag name="foo" type="MyCollector"/>
+	<abstractTag name="bar" abstractType="MyInterface" setter="addBar" concreteTypeAttribute="__type" />
+</defines>

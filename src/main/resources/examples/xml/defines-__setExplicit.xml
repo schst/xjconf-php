@@ -1,0 +1,6 @@
+<defines>
+  <tag name="dog" type="Dog">
+    <attribute name="species" type="string" setter="__set" />
+  </tag>
+  <tag name="name" type="string" setter="__set" />
+</defines>

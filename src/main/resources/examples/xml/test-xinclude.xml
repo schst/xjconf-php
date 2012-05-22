@@ -1,0 +1,9 @@
+<xj:configuration
+    xmlns:xj="http://xjconf.net/XJConf"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <int id="zahl">453</int>
+  <bool id="bool">true</bool>
+
+  <xi:include href="test-xinclude-included.xml"/>
+</xj:configuration>

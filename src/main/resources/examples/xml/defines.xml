@@ -1,0 +1,32 @@
+<defines>
+	<tag name="zahl" type="integer"/>
+	<tag name="octal" type="integer"/>
+	<tag name="foo" type="string"/>
+	<tag name="schst" type="net\xjconf\examples\UpperString"/>
+
+	<tag name="complex" type="net\xjconf\examples\Complex">
+		<attribute name="color" type="string" setter="setColorString" />
+		<attribute name="size" type="integer"/>
+	</tag>
+
+	<tag name="color" type="net\xjconf\examples\Color">
+		<attribute name="red" type="integer"/>
+		<attribute name="green" type="integer"/>
+		<attribute name="blue" type="integer"/>
+
+		<attribute name="title" type="string" setter="setColorTitle"/>
+	</tag>
+
+	<tag name="complex2" type="net\xjconf\examples\Complex">
+		<attribute name="size" type="integer"/>
+	</tag>
+
+	<tag name="complex3" type="net\xjconf\examples\Complex">
+		<attribute name="size" type="integer" default="200"/>
+	</tag>
+
+	<tag name="array" type="array"/>
+
+	<tag name="item" type="string" key="__none"/>
+
+</defines>

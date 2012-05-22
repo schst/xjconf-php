@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.5.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>XJConfForPHP</name>
+ <channel>pear.php-tools.net</channel>
+ <summary>XML-to-object mapper.</summary>
+ <description>XJConfForPHP is a port of XJConf. It enables you to create complex data structures consisting of
+objects, arrays and primitives from virtually any XML document. It provides a simple XML language
+to define the XML-to-object mappings. It features namespace support and is easily extendible.</description>
+ <lead>
+  <name>Stephan Schmidt</name>
+  <user>schst</user>
+  <email>schst@xjconf.net</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Frank Kleine</name>
+  <user>mikey</user>
+  <email>mikey@xjconf.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-11-11</date>
+ <time>15:14:31</time>
+ <version>
+  <release>0.2.1</release>
+  <api>0.2.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.gnu.org/copyleft/lesser.txt">LGPL</license>
+ <notes>Feature additions:
+- Added a fourth way of adding children, this time via the keyAttribute attribute (mikey)</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <dir name="examples">
+    <dir name="hidden">
+     <file name="MyNestedClass.php" role="doc" />
+    </dir> <!-- /examples/hidden -->
+    <dir name="xml">
+     <file name="defines-attributes-required.xml" role="doc" />
+     <file name="defines-auto-primitives.xml" role="doc" />
+     <file name="defines-classloader.xml" role="doc" />
+     <file name="defines-collection.xml" role="doc" />
+     <file name="defines-constructor.xml" role="doc" />
+     <file name="defines-dynamic-setters.xml" role="doc" />
+     <file name="defines-dynamic-types.xml" role="doc" />
+     <file name="defines-empty-constructor.xml" role="doc" />
+     <file name="defines-extension.xml" role="doc" />
+     <file name="defines-interfaces.xml" role="doc" />
+     <file name="defines-method.xml" role="doc" />
+     <file name="defines-primitives-factory.xml" role="doc" />
+     <file name="defines-primitives.xml" role="doc" />
+     <file name="defines-set-cdata.xml" role="doc" />
+     <file name="defines-static.xml" role="doc" />
+     <file name="defines-__setExplicit.xml" role="doc" />
+     <file name="defines-__setImplicit.xml" role="doc" />
+     <file name="defines-__setPublicProperties.xml" role="doc" />
+     <file name="defines.xml" role="doc" />
+     <file name="defines2.xml" role="doc" />
+     <file name="defines3.xml" role="doc" />
+     <file name="test-attributes-required.xml" role="doc" />
+     <file name="test-auto-primitives.xml" role="doc" />
+     <file name="test-classloader.xml" role="doc" />
+     <file name="test-collection.xml" role="doc" />
+     <file name="test-constructor.xml" role="doc" />
+     <file name="test-dynamic-setters.xml" role="doc" />
+     <file name="test-dynamic-types.xml" role="doc" />
+     <file name="test-empty-constructor.xml" role="doc" />
+     <file name="test-extension.xml" role="doc" />
+     <file name="test-interfaces.xml" role="doc" />
+     <file name="test-method.xml" role="doc" />
+     <file name="test-primitives.xml" role="doc" />
+     <file name="test-set-cdata.xml" role="doc" />
+     <file name="test-static.xml" role="doc" />
+     <file name="test-xinclude-included.xml" role="doc" />
+     <file name="test-xinclude.xml" role="doc" />
+     <file name="test-__set.xml" role="doc" />
+     <file name="test.xml" role="doc" />
+     <file name="test2.xml" role="doc" />
+     <file name="test3.xml" role="doc" />
+    </dir> <!-- /examples/xml -->
+    <file name="AnotherClass.php" role="doc" />
+    <file name="AnotherDog.php" role="doc" />
+    <file name="CDataColor.php" role="doc" />
+    <file name="ClassLoader.php" role="doc" />
+    <file name="Color.php" role="doc" />
+    <file name="ColorPrimitives.php" role="doc" />
+    <file name="ColorPrimitivesFactory.php" role="doc" />
+    <file name="Complex.php" role="doc" />
+    <file name="Complex2.php" role="doc" />
+    <file name="ConstructorColor.php" role="doc" />
+    <file name="Dog.php" role="doc" />
+    <file name="DynamicSetterClass.php" role="doc" />
+    <file name="EmptyConstructorClass.php" role="doc" />
+    <file name="Example1.php" role="doc" />
+    <file name="Example2.php" role="doc" />
+    <file name="Example3.php" role="doc" />
+    <file name="ExampleClassLoader.php" role="doc" />
+    <file name="ExampleCollection.php" role="doc" />
+    <file name="ExampleExtension.php" role="doc" />
+    <file name="ExampleMethods.php" role="doc" />
+    <file name="MathExtension.php" role="doc" />
+    <file name="MyClass.php" role="doc" />
+    <file name="MyCollector.php" role="doc" />
+    <file name="MyInterface.php" role="doc" />
+    <file name="Registry.php" role="doc" />
+    <file name="TestAttributesRequired.php" role="doc" />
+    <file name="TestCDataSetter.php" role="doc" />
+    <file name="TestConstructor.php" role="doc" />
+    <file name="TestDynamicSetters.php" role="doc" />
+    <file name="TestDynamicTypes.php" role="doc" />
+    <file name="TestEmptyConstructor.php" role="doc" />
+    <file name="TestInterfaces.php" role="doc" />
+    <file name="TestPrimitives.php" role="doc" />
+    <file name="TestPrimitivesFactory.php" role="doc" />
+    <file name="TestStaticClass.php" role="doc" />
+    <file name="TestXInclude.php" role="doc" />
+    <file name="Test__setExplicit.php" role="doc" />
+    <file name="Test__setImplicit.php" role="doc" />
+    <file name="Test__setPublicProperties.php" role="doc" />
+    <file name="UpperString.php" role="doc" />
+   </dir> <!-- /examples -->
+   <dir name="tests">
+    <dir name="definitions">
+     <file name="AttributeDefinitionTestCase.php" role="test" />
+     <file name="CDataDefinitionTestCase.php" role="test" />
+     <file name="ConstructorDefinitionTestCase.php" role="test" />
+     <file name="DefinitionsTestSuite.php" role="test" />
+     <file name="FactoryMethodDefinitionTestCase.php" role="test" />
+     <file name="NamespaceDefinitionTestCase.php" role="test" />
+    </dir> <!-- /tests/definitions -->
+    <dir name="integration">
+     <file name="Example1TestCase.php" role="test" />
+     <file name="Example2TestCase.php" role="test" />
+     <file name="Example3TestCase.php" role="test" />
+     <file name="ExampleClassLoaderTestCase.php" role="test" />
+     <file name="ExampleCollectionTestCase.php" role="test" />
+     <file name="ExampleExtensionTestCase.php" role="test" />
+     <file name="TestAttributesRequiredTestCase.php" role="test" />
+     <file name="TestAutoPrimitivesTestCase.php" role="test" />
+     <file name="TestCDataSetterTestCase.php" role="test" />
+     <file name="TestConstructorTestCase.php" role="test" />
+     <file name="TestDynamicSettersTestCase.php" role="test" />
+     <file name="TestDynamicTypesTestCase.php" role="test" />
+     <file name="TestEmptyConstructorTestCase.php" role="test" />
+     <file name="TestInterfacesTestCase.php" role="test" />
+     <file name="TestPrimitivesFactoryTestCase.php" role="test" />
+     <file name="TestPrimitivesTestCase.php" role="test" />
+     <file name="TestStaticClassTestCase.php" role="test" />
+     <file name="TestXIncludeTestCase.php" role="test" />
+     <file name="Test__setExplicitTestCase.php" role="test" />
+     <file name="Test__setImplicitTestCase.php" role="test" />
+     <file name="Test__setPublicPropertiesTestCase.php" role="test" />
+    </dir> <!-- /tests/integration -->
+    <file name="run.php" role="test" />
+    <file name="runIntegration.php" role="test" />
+   </dir> <!-- /tests -->
+   <dir name="XJConf">
+    <dir name="converters">
+     <dir name="factories">
+      <file name="ArrayValueConverterFactory.php" role="php" />
+      <file name="AutoPrimitiveValueConverterFactory.php" role="php" />
+      <file name="ConstructorValueConverterFactory.php" role="php" />
+      <file name="FactoryMethodValueConverterFactory.php" role="php" />
+      <file name="PrimitiveValueConverterFactory.php" role="php" />
+      <file name="StaticClassValueConverterFactory.php" role="php" />
+      <file name="ValueConverterFactory.php" role="php" />
+      <file name="ValueConverterFactoryChain.php" role="php" />
+     </dir> <!-- /XJConf/converters/factories -->
+     <file name="AbstractObjectValueConverter.php" role="php" />
+     <file name="ArrayValueConverter.php" role="php" />
+     <file name="AutoPrimitiveValueConverter.php" role="php" />
+     <file name="ConstructorValueConverter.php" role="php" />
+     <file name="FactoryMethodValueConverter.php" role="php" />
+     <file name="PrimitiveValueConverter.php" role="php" />
+     <file name="StaticClassValueConverter.php" role="php" />
+     <file name="ValueConverter.php" role="php" />
+    </dir> <!-- /XJConf/converters -->
+    <dir name="definitions">
+     <dir name="handler">
+      <file name="AbstractTagDefinitionHandler.php" role="php" />
+      <file name="AttributeDefinitionHandler.php" role="php" />
+      <file name="CDataDefinitionHandler.php" role="php" />
+      <file name="ChildDefinitionHandler.php" role="php" />
+      <file name="ConcreteTagDefinitionHandler.php" role="php" />
+      <file name="ConstructorDefinitionHandler.php" role="php" />
+      <file name="DefinitionHandler.php" role="php" />
+      <file name="DefinitionHandlerFactory.php" role="php" />
+      <file name="EmptyDefinitionHandler.php" role="php" />
+      <file name="FactoryMethodDefinitionHandler.php" role="php" />
+      <file name="MethodCallTagDefinitionHandler.php" role="php" />
+      <file name="TagDefinitionHandler.php" role="php" />
+     </dir> <!-- /XJConf/definitions/handler -->
+     <file name="AbstractTagDefinition.php" role="php" />
+     <file name="AttributeDefinition.php" role="php" />
+     <file name="CDataDefinition.php" role="php" />
+     <file name="ChildDefinition.php" role="php" />
+     <file name="ConcreteTagDefinition.php" role="php" />
+     <file name="ConstructorDefinition.php" role="php" />
+     <file name="Definition.php" role="php" />
+     <file name="FactoryMethodDefinition.php" role="php" />
+     <file name="MethodCallTagDefinition.php" role="php" />
+     <file name="NamespaceDefinition.php" role="php" />
+     <file name="NamespaceDefinitions.php" role="php" />
+     <file name="TagDefinition.php" role="php" />
+     <file name="ValueModifier.php" role="php" />
+    </dir> <!-- /XJConf/definitions -->
+    <dir name="exceptions">
+     <file name="InvalidNamespaceDefinitionException.php" role="php" />
+     <file name="InvalidTagDefinitionException.php" role="php" />
+     <file name="MissingAttributeException.php" role="php" />
+     <file name="UnknownNamespaceException.php" role="php" />
+     <file name="UnknownTagException.php" role="php" />
+     <file name="UnsupportedOperationException.php" role="php" />
+     <file name="ValueConversionException.php" role="php" />
+     <file name="XJConfException.php" role="php" />
+    </dir> <!-- /XJConf/exceptions -->
+    <dir name="ext">
+     <dir name="xinc">
+      <file name="XInclude.php" role="php" />
+      <file name="XIncludeException.php" role="php" />
+     </dir> <!-- /XJConf/ext/xinc -->
+     <file name="Extension.php" role="php" />
+    </dir> <!-- /XJConf/ext -->
+    <file name="DefinedTag.php" role="php" />
+    <file name="DefinitionParser.php" role="php" />
+    <file name="GenericTag.php" role="php" />
+    <file name="Tag.php" role="php" />
+    <file name="XJConfClassLoader.php" role="php" />
+    <file name="XJConfFacade.php" role="php" />
+    <file name="XJConfLoader.php" role="php" />
+    <file name="XmlParser.php" role="php" />
+   </dir> <!-- /XJConf -->
+   <file name="autopackage2.php" role="php" />
+   <file name="build.php" role="php" />
+   <file name="LICENSE" role="data" />
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <extension>
+    <name>xmlreader</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.1.0</release>
+    <api>0.1.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-09-05</date>
+   <license uri="http://www.gnu.org/copyleft/lesser.txt">LGPL</license>
+   <notes>Initial release.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.1</release>
+    <api>0.1.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-11-21</date>
+   <license uri="http://www.gnu.org/copyleft/lesser.txt">LGPL</license>
+   <notes>Feature addition:
+It is now possible to use dynamic setter methods built from an attribute value.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.1.2</release>
+    <api>0.1.2</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2006-11-28</date>
+   <license uri="http://www.gnu.org/copyleft/lesser.txt">LGPL</license>
+   <notes>Feature addition:
+This release enables using class loaders for differant namespaces which allows to load classes
+at runtime of the XmlParser instead of having to load all classes before parsing the xml files.
+Bugfix:
+The ConstructorValueConverter now works with all examples.</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.0</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-09-24</date>
+   <license uri="http://www.gnu.org/copyleft/lesser.txt">LGPL</license>
+   <notes>Feature additions:
+- New feature to define abstract tags, which enables yo to define the concrete type in the tag instead of the definition (mikey)
+- It is now possible to define an explicit setter method for character data inside a tag (schst)
+- Added possibility to declare tags as static (schst)
+- Added several unit tests (mikey)
+- Added possibility to package XJConfForPHP as a STAR archive (mikey, schst)
+- Added new value type &quot;xjonf:auto-primitive&quot; to guess the type of a scalar value (schst)
+- Added implicit and explicit call to __set as well as possibility for setting public properties (mikey)
+- Added XJConfFacade for a simplyfied usage of XJConf (mikey)
+Bugfixes:
+- Fixed bug #6: Enable factory methods without parameters in PHP 5.0.x (schst)
+- Fixed bug #7: check, whether factory method can be called statically (schst)
+- Fixed bug: prevent errors in case factory method does not return an instance of an object (mikey)</notes>
+  </release>
+  <release>
+   <version>
+    <release>0.2.1</release>
+    <api>0.2.0</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-11-11</date>
+   <license uri="http://www.gnu.org/copyleft/lesser.txt">LGPL</license>
+   <notes>Feature additions:
+- Added a fourth way of adding children, this time via the keyAttribute attribute (mikey)</notes>
+  </release>
+ </changelog>
+</package>

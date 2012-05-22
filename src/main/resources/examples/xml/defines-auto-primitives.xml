@@ -1,0 +1,3 @@
+<defines>
+  <tag name="auto" type="xjconf:auto-primitive" keyAttribute="name"/>
+</defines>

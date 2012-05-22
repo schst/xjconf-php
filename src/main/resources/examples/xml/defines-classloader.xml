@@ -1,0 +1,6 @@
+<defines>
+  <namespace uri="http://xjconf.net/example/ClassLoader">
+	<tag name="nestedClass" type="hidden.MyNestedClass"/>
+	<tag name="otherClass" type="MyClass"/>
+  </namespace>
+</defines>

@@ -1,0 +1,11 @@
+<defines>
+	<tag name="int" primitive="int" keyAttribute="id"/>
+	<tag name="bool" primitive="boolean" keyAttribute="id"/>
+
+	<tag name="color" type="ColorPrimitives">
+        <constructor><cdata type="string"/></constructor>
+		<attribute name="red" type="int"/>
+		<attribute name="green" type="int"/>
+		<attribute name="blue" type="int"/>
+	</tag>
+</defines>

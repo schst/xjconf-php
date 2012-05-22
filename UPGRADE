@@ -1,0 +1,22 @@
+Upgrading from v0.3.x and lower to v0.4.0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This document describes the steps you need to do when upgrading XJConf from any
+of the 0.3.x versions and lower to 0.4.0.
+
+1. Remove all includes of XJConf classes by hand. Instead, just include
+   XJConf/XJConf.php at the beginning of your application or script. This will
+   register an autoload method that takes care of loading all other classes
+   from XJConf.
+
+2. Replace every occurance of XJConfLoader::load('package.ClassName'); with
+   use net::xjconf::package::ClassName;.
+   For example, if you use the XJConfFacade, you need to replace
+   XJConfLoader::load('XJConfFacade');
+   with
+   use net::xjconf::XJConfFacade;
+   while using
+   XJConfLoader::load('DefinitionParser', 'XmlParser');
+   needs to be replaced with
+   use net::xjconf::DefinitionParser;
+   use net::xjconf::XmlParser;

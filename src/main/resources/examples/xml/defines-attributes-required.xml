@@ -1,0 +1,7 @@
+<defines>
+	<tag name="color" type="Color" keyAttribute="id">
+		<attribute name="red" type="integer" required="true"/>
+		<attribute name="green" type="integer" required="true"/>
+		<attribute name="blue" type="integer" required="true"/>
+	</tag>
+</defines>

@@ -1,0 +1,6 @@
+<configuration>
+  <props>
+    <property name="foo">bar</property>
+    <property name="argh">tomato</property>
+  </props>
+</configuration>

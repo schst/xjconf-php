@@ -1,0 +1,7 @@
+<defines>
+	<tag name="complex" type="Complex2">
+	    <constructor/>
+		<cdata type="integer" setter="setSize"/>
+		<attribute name="color" type="string" setter="setColorString"/>
+	</tag>
+</defines>

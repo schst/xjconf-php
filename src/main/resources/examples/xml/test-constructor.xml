@@ -1,0 +1,14 @@
+<configuration>
+  <color id="color" red="100" green="25" blue="10"/>
+  <color id="color-no-atts"/>
+
+  <!-- Use child tags for the constructor -->
+  <color2>
+    <red>111</red>
+    <green>222</green>
+    <blue>333</blue>
+  </color2>
+
+  <!-- Use cdata tags for the constructor -->
+  <color3>#999999</color3>
+</configuration>

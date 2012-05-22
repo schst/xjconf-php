@@ -1,0 +1,8 @@
+<defines>
+	<tag name="map" type="array"/>
+	<tag name="number" type="double" keyAttribute="name"/>
+	<tag name="int" type="integer" key="__none"/>
+	<tag name="double" type="double" key="__none"/>
+
+	<tag name="array" type="array"/>
+</defines>

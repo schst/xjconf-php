@@ -1,0 +1,5 @@
+<configuration>
+  <registry foo="This has been set statically!">
+    <bar>2536</bar>
+  </registry>
+</configuration>

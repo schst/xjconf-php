@@ -1,0 +1,4 @@
+<defines>
+	<tag name="foo" type="MyClass"/>
+	<tag name="bar" type="MyClass"/>
+</defines>
